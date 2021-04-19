@@ -46,7 +46,59 @@
                     </tr>
                 </tbody>
             </table>
-            <div style="margin-top: 500px"></div>
+            <br>
+            <hr>
+            <br>
+            
+           <form action="process.php" method="post">
+               <label for="fName">first Name</label><br>
+               <input type="text" name="fName" placeholder="firstName"><br>
+               
+               <label for="lName">last name</label><br>
+               <input type="text" name="lName" placeholder="lastName" ><br>
+               <label for="email">email</label><br>
+               <input type="email" name="email" placeholder="email"><br>
+               <label for="age">age</label><br>
+               <input type="number" name="age" placeholder="age"> <br> 
+               <input type="submit" name="submit" value="submit">
+
+           </form>
+           <br>
+           <hr>
+           <br>
+           <form action="process.php" method="post">
+               <div>
+                   <label for="email">email</label>
+                   <input type="email" name="email" value="email">
+               </div>
+               <div>
+                   <label for="message">message</label><br>
+                  <textarea name="message" id="" cols="30" rows="10"></textarea>
+               </div>
+               <br>
+               <div>
+               <label for="gender">gender</label>
+               <select name="gender" id="">
+                   <option value="male">male</option>
+                   <option value="female">female</option>
+                   <option value="other">other</option>
+               </select>
+               </div>
+           </form>
+
+           <!--button-->
+           <button>click me</button>
+          
+           <!--images-->
+           <br>
+           <div>> 
+               <a href="images/sample.jpg">
+                <img src="images/sample.jpg" alt="saple" width="">
+          
+           </a>
+           
+           </div>
+           
 
 
 
